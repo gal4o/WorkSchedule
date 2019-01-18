@@ -7,10 +7,10 @@ body {
 }
 
 header {
-    background: aquamarine;
 }
 
 form {
+    contain: content;
     font-style: italic;
     background: antiquewhite;
     padding: 15px 0 15px 0;
@@ -20,6 +20,16 @@ form>input{
     border-radius: 5px;
 }
 
-footer {
+p {
+    background: aquamarine;
+
+    font-size: 34px;
+    color: indigo;
+}
+
+footer>p {
+    background: white;
+    font-size: 16px;
     color: darkgray;
+    text-align: right;
 }

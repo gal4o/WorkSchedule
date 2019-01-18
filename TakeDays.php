@@ -13,7 +13,7 @@ if (isset($_POST['firstWD'])||isset($_POST['search'])) {
 
     $modifier = new DateModifier($start, $end);
 
-    echo $modifier->calcWorkDay();
+    echo '<p>'.$modifier->calcWorkDay().'</p>';
 }
 
 include "footer.php";
