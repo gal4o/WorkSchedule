@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 24px;
+}
+
+header {
+    background: aquamarine;
+}
+
+form {
+    font-style: italic;
+    background: antiquewhite;
+    padding: 15px 0 15px 0;
+}
+
+form>input{
+    border-radius: 5px;
+}
+
+footer {
+    color: darkgray;
+}

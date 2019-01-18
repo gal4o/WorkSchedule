@@ -1,4 +1,6 @@
+</body>
 <footer>
-    <br/>
+    <hr/>
     <p>@ Gal4o</p>
 </footer>
+</html>
